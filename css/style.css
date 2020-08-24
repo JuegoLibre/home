@@ -1006,7 +1006,7 @@ ul {
   justify-content: center !important;
 }
 
-/**************** banner part css start ****************/
+/****************  part css start ****************/
 /* line 2, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
 .banner_part {
   position: relative;
@@ -1049,7 +1049,7 @@ ul {
   content: "";
   left: 0;
   bottom: 0;
-  background-color: #B08EAD;
+  background-color:;
   width: 196px;
   height: 618px;
 }
