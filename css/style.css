@@ -13,6 +13,28 @@
 
 /**************** extend css start ****************/
 /**************** common css start ****************/
+.category_list{
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+}
+
+.category_list .category_item{
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	background: #E84C3D;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.category_list .ct_item-active{
+	background: #2D3E50;
+}
+
 /* line 4, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
 body {
   font-family: "Rubik", sans-serif;
@@ -2523,16 +2545,16 @@ h6 {
 
 /* line 218, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .genric-btn.primary {
-  color: #fff;
-  background: #B08EAD;
+  color: #5c8f90;
+  background: #bdd0ca;
   border: 1px solid transparent;
 }
 
 /* line 222, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #B08EAD;
-  border: 1px solid #B08EAD;
-  background: #fff;
+  color: #bdd0ca;
+  border: 1px solid #bdd0ca;
+  background: #5c8f90;
 }
 
 /* line 228, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_elements.scss */
